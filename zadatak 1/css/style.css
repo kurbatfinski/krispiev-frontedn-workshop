@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    color: red;
+}
+h3{
+    color: rgb(235, 52, 83);
+}
+p{
+    color: green;
+}
+.h1-zuti{
+    color: yellow;
+}
+#id-h4{
+    color: blue;
+}
+.h1-font-size{
+    font-size: 12px;
+}
