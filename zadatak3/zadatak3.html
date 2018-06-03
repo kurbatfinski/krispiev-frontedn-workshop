@@ -1,17 +1,34 @@
 <html>
 <head>
     <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <title>zadatak3
 
     </title>
 
     <body>
-        <button onclick="alert1()">
-            click me
-        </button>
+        <div>/*zadatak 1*/
+            <button onclick="alert1()">
+                click me
+            </button>
+         </div>
 
-       
+         <div>
+                <form >
+                    broj1: <input type="number" name="broj1" ><br>
+                    broj2: <input type="number" name="broj2" ><br>
+                    <button onclick="izracunaj()">Izracunaj</button><br>
+                    Rezultat: <input type="text" name="rezultat" >
+                    
+                </form>
+         </div>
+        <div>
+                <input id="br1" placeholder="broj 1" type="number" >
+                <input id="br2" placeholder="broj 2" type="number" >
+                <button onclick="zbir()">zbir</button>
+                <input id="br3" placeholder="zbir" type="number" >
+        </div>
     </body>
 
 </html>
